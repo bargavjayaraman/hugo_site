@@ -21,6 +21,8 @@ googleAnalytics = ""
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
+
+publishDir = "bargavjayaraman.github.io"
 ############################
 ## Advanced options below ##
 ############################

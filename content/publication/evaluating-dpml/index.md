@@ -30,7 +30,7 @@ tags:
 - Source Themes
 featured: true
 
-url_pdf: https://www.cs.virginia.edu/~evans/pubs/usenix2019/evaluatingdp.pdf
+url_pdf: https://arxiv.org/pdf/1902.08874.pdf
 url_code: https://github.com/bargavj/EvaluatingDPML
 url_dataset: ''
 url_poster: '#'
