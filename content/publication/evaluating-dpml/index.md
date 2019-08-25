@@ -33,9 +33,9 @@ featured: true
 url_pdf: https://arxiv.org/pdf/1902.08874.pdf
 url_code: https://github.com/bargavj/EvaluatingDPML
 url_dataset: ''
-url_poster: '#'
+url_poster: ''
 url_project: ''
-url_slides: '#'
+url_slides: 'files/evaluating_dpml_presentation.pdf'
 url_source: ''
 url_video: ''
 
