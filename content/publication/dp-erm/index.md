@@ -27,7 +27,10 @@ abstract: Distributed learning allows a group of independent data owners to coll
 summary: We combine differential privacy and MPC for privacy preserving distributed learing of strongly-convex ERM algorithms.
 
 tags:
-- Source Themes
+- Machine Learning
+- Differential Privacy
+- Multi-Party Computation
+
 featured: false
 
 url_pdf: http://papers.nips.cc/paper/7871-distributed-learning-without-distress-privacy-preserving-empirical-risk-minimization

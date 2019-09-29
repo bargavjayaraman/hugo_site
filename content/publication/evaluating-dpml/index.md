@@ -27,7 +27,9 @@ abstract: Differential privacy is a strong notion for privacy that can be used t
 summary: We compare the privacy leakage of ML models trained with different differential privacy relaxations and different privacy budgets.
 
 tags:
-- Source Themes
+- Machine Learning
+- Differential Privacy
+
 featured: true
 
 url_pdf: https://arxiv.org/pdf/1902.08874.pdf
@@ -37,7 +39,7 @@ url_poster: ''
 url_project: ''
 url_slides: 'files/evaluating_dpml_presentation.pdf'
 url_source: ''
-url_video: ''
+url_video: https://www.youtube.com/watch?v=JAGhqbY_U50
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -61,4 +63,4 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
+{{< youtube JAGhqbY_U50 >}}
