@@ -24,7 +24,9 @@ abstract: The security of TLS depends on trust in certificate authorities, and t
 summary: We use MPC to allow certificate authorities to sign digital certificates in a secure and distributed way.
 
 tags:
-- Source Themes
+- Multi-Party Computation
+- Certificate Authority
+
 featured: false
 
 url_pdf: https://arxiv.org/pdf/1706.03370.pdf

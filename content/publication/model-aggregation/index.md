@@ -27,7 +27,9 @@ abstract: We consider the problem of privately learning a sparse model across mu
 summary: We use MPC to aggregate models in a private and distributed way.
 
 tags:
-- Source Themes
+- Machine Learning
+- Multi-Party Computation
+
 featured: false
 
 url_pdf: https://pmpml.github.io/PMPML16/papers/PMPML16_paper_15.pdf

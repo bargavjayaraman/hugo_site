@@ -27,7 +27,9 @@ abstract: Vagueness in software requirements documents can lead to several maint
 summary: We identify vague terms across English, Portuguese and Spanish software requirement documents.
 
 tags:
-- Source Themes
+- Machine Learning
+- NLP
+
 featured: false
 
 url_pdf: https://www3.nd.edu/~cmc/papers/cruz_re_indus17.pdf

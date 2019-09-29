@@ -28,7 +28,8 @@ abstract: Cloud computing has become indispensable in providing highly reliable 
 summary: We use MPC to allow certificate authorities to sign digital certificates in a secure and distributed way.
 
 tags:
-- Source Themes
+- Searchable Encryption
+
 featured: false
 
 url_pdf: https://ieeexplore.ieee.org/abstract/document/7164946
