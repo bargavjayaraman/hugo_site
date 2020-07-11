@@ -27,7 +27,7 @@ publication_short: ""
 abstract: Membership inference attacks on models trained using machine learning have been shown to pose significant privacy risks. However, previous works on membership inference assume a balanced prior distribution where the adversary randomly chooses target records from a pool that has equal numbers of members and non-members. Such an assumption of balanced prior is unrealistic in practical scenarios. This paper studies membership inference attacks under more realistic assumptions. First, we consider skewed priors where a non-member is more likely to occur than a member record. For this, we use metric based on positive predictive value (PPV) in conjunction with membership advantage for privacy leakage evaluation, since PPV considers the prior. Second, we consider adversaries that can select inference thresholds according to their attack goals. For this, we develop a threshold selection procedure that improves inference attacks. We also propose a new membership inference attack called Merlin which outperforms previous attacks. Our experimental evaluation shows that while models trained without privacy mechanisms are vulnerable to membership inference attacks in balanced prior settings, there appears to be negligible privacy risk in the skewed prior setting.
 
 # Summary. An optional shortened abstract.
-summary: We propose novel membership inference attack and a threshold selection procedure to improve existing threshold based membership inference attacks. We further explore membership inference attack in more realistic settings of skewed priors.
+summary: We propose novel membership inference attack and a threshold selection procedure to improve the existing attacks.
 
 tags:
 - Machine Learning
