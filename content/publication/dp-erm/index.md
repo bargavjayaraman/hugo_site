@@ -31,7 +31,7 @@ tags:
 - Differential Privacy
 - Multi-Party Computation
 
-featured: false
+featured: true
 
 url_pdf: http://papers.nips.cc/paper/7871-distributed-learning-without-distress-privacy-preserving-empirical-risk-minimization
 url_code: https://github.com/bargavj/distributedMachineLearning
