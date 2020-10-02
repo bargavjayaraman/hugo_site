@@ -3,6 +3,7 @@ title: "Revisiting Membership Inference Under Realistic Assumptions"
 authors:
 - admin
 - Lingxiao Wang
+- Katherine Knipmeyer
 - David Evans
 - Quanquan Gu
 
@@ -24,7 +25,7 @@ publication_types: ["3"]
 publication: In arXiv
 publication_short: ""
 
-abstract: Membership inference attacks on models trained using machine learning have been shown to pose significant privacy risks. However, previous works on membership inference assume a balanced prior distribution where the adversary randomly chooses target records from a pool that has equal numbers of members and non-members. Such an assumption of balanced prior is unrealistic in practical scenarios. This paper studies membership inference attacks under more realistic assumptions. First, we consider skewed priors where a non-member is more likely to occur than a member record. For this, we use metric based on positive predictive value (PPV) in conjunction with membership advantage for privacy leakage evaluation, since PPV considers the prior. Second, we consider adversaries that can select inference thresholds according to their attack goals. For this, we develop a threshold selection procedure that improves inference attacks. We also propose a new membership inference attack called Merlin which outperforms previous attacks. Our experimental evaluation shows that while models trained without privacy mechanisms are vulnerable to membership inference attacks in balanced prior settings, there appears to be negligible privacy risk in the skewed prior setting.
+abstract: We study membership inference in settings where some of the assumptions typically used in previous research are relaxed. First, we consider skewed priors, to cover cases such as when only a small fraction of the candidate pool targeted by the adversary are actually members and develop a PPV-based metric suitable for this setting. This setting is more realistic than the balanced priors setting typically considered by researchers. Second, we consider adversaries that select inference thresholds according to their attack goals and develop a threshold selection procedure that improves inference attacks. Since previous inference attacks fail under in imbalanced prior setting, we develop a new inference attack based on the intuition that inputs corresponding to training set members will be near a local minimum in the loss function, and show that an attack that combines this with thresholds on the per-instance loss can achieve high PPV even in settings where other attacks appear to be ineffective.
 
 # Summary. An optional shortened abstract.
 summary: We propose novel membership inference attack and a threshold selection procedure to improve the existing attacks.
