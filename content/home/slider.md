@@ -17,6 +17,15 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Paper Accepted!"
+  content = "Dec 13, 2020: Our paper titled [Revisiting Membership Inference Under Realistic Assumptions](https://arxiv.org/pdf/2005.10881.pdf) has been accepted at PETS 2021."
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  overlay_color = "#223"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Paper Accepted!"
   content = "Jun 1, 2019: Our paper titled [Evaluating Differentially Private Machine Learning in Practice](https://www.usenix.org/conference/usenixsecurity19/presentation/jayaraman) has been accepted at USENIX Security 2019, Santa Clara, CA, USA."
   align = "center"  # Choose `center`, `left`, or `right`.
 
