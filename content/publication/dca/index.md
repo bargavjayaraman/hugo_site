@@ -2,6 +2,8 @@
 title: "Decentralized Certificate Authorities"
 authors:
 - admin
+- Hannah Li
+- David Evans
 date: "2017-06-11T00:00:00Z"
 doi: ""
 
