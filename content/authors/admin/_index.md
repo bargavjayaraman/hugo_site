@@ -28,7 +28,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: University of Virginia, USA
-    year: 2021
+    year: 2022
   - course: MS in Computer Science
     institution: International Institute of Information Technology Hyderabad, India
     year: 2015
@@ -60,7 +60,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/resume_bargav.pdf
+  link: files/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
