@@ -17,6 +17,16 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Research Intern"
+  company = "Microsoft Redmond Lab"
+  company_url = ""
+  location = "Seattle"
+  date_start = "2021-05-17"
+  date_end = "2021-08-13"
+  description = """Research on extracting data from generative language models."""
+  
 [[experience]]
   title = "Graduate Research Assistant"
   company = "University of Virginia"
@@ -33,6 +43,6 @@ date_format = "Jan 2006"
   location = "Bangalore"
   date_start = "2015-01-03"
   date_end = "2016-07-15"
-  description = """Did research on the application of machine learning for solving software engineering problems."""
+  description = """Application of machine learning for solving software engineering problems."""
 
 +++

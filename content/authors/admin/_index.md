@@ -66,4 +66,4 @@ social:
 email: ""
 ---
 
-I'm currently doing PhD in Computer Science at School of Engineering and Applied Science, University of Virginia. I am advised by [Professor David Evans](https://www.cs.virginia.edu/~evans/) and my area of research is broadly in [Privacy Preserving Machine Learning](https://oblivc.org/ppml/).
+I'm currently pursuing PhD in Computer Science at School of Engineering and Applied Science, University of Virginia. I am advised by [Professor David Evans](https://www.cs.virginia.edu/~evans/) and my area of research is broadly in [Privacy Preserving Machine Learning](https://oblivc.org/ppml/).
