@@ -162,3 +162,5 @@ Here we consider the scenario where the training data comes from skewed distribu
 
 ### Comments
 
+In all the above settings, the white-box attacks perform similar on both training and test candidates, unlike the membership inference case where the attacks perform dissimilar across training and test sets.
+
