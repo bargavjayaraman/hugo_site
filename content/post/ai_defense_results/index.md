@@ -45,10 +45,8 @@ projects:
 > *<u>Adversarial Knowledge</u>:*
 
 > - *High:* Adversary knows all but one record from training set.
-
-> - *Medium:* Adversary knows the training distribution (i.e. can sample records with no intersection with training set)
-
-> - *Low:* Adversary knows a skewed distribution (that has records from hospitals with highest number of patients)
+> - *Medium:* Adversary knows the training distribution (i.e. can sample records with no intersection with training set).
+> - *Low:* Adversary knows a skewed distribution (that has records from hospitals with highest number of patients).
 
 <center><img src="img/texas-100x.jpg" width="100%"></center>
 <center>**Figure 1:** Patient records distribution in Texas-100X, sorted with respect to hospital population.</center>
@@ -59,12 +57,12 @@ As reported in the paper draft, the model trained on Texas-100X data set uses th
 
 <details>
     <summary>**Hypothesis:** Passing WB$\cdot$IP as a feature to WB$\diamondsuit$IP's decision tree should improve the attack.</summary>
-    **Remark:** The resulting WB$\square$IP attack does better, but only for the low adversarial knowledge setting where the adversary doesn't know the training distribution. Still for most cases, WB$\square$IP doesn't do better than WB$\cdot$IP.
+    **Remark:** The result is a mixed bag. WB$\square$IP attack does better than WB$\diamondsuit$IP attack in many (but not all) cases. Still for most cases, WB$\square$IP doesn't do better than WB$\cdot$IP.
 </details>
 
 <details>
     <summary>**Hypothesis:** There should be no gap between attribute inference and imputation with knowledge of train set.</summary>
-    **Remark:** Though there is a gap, this gap is reduced when imputation is trained with class label.
+    **Remark:** There is a considerable gap, even though this gap is reduced when imputation is trained with class label.
 </details>
 
 
@@ -72,6 +70,12 @@ As reported in the paper draft, the model trained on Texas-100X data set uses th
 > WB$\diamondsuit$IP uses a decision tree model to combine WB and IP <br>
 > WB$\square$IP uses a decision tree model to combine WB, IP and WB$\cdot$IP <br>
 > IP$^\dagger$ is the imputation with access to class label
+
+> *<u>Candidate Sets</u>:*
+
+> - *Train:* Subset of 10,000 candidate records drawn from the training set.
+> - *Test:* Subset of 10,000 candidate records randomly sampled from the training distribution.
+> - *OOD:* Subset of 10,000 candidate records randomly sampled from a distribution different from the training distribution.
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High (Train) | High (Test) | High (OOD) | Med (Train) | Med (Test) | Med (OOD) | Low (Train) | Low (Test) | Low (OOD) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -118,9 +122,7 @@ Here we consider the scenario where the training data comes from skewed distribu
 > *<u>Adversarial Knowledge</u>:*
 
 > - *High:* Adversary knows all but one record from training set.
-
-> - *Medium:* Adversary knows the training distribution (i.e. can sample records with no intersection with training set)
-
+> - *Medium:* Adversary knows the training distribution (i.e. can sample records with no intersection with training set).
 > - *Low:* Adversary knows the general data set distribution except the most populous hospitals.
 
 #### Model uses *race* as a training feature
