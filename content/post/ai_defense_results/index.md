@@ -73,36 +73,36 @@ As reported in the paper draft, the model trained on Texas-100X data set uses th
 > WB$\square$IP uses a decision tree model to combine WB, IP and WB$\cdot$IP <br>
 > IP$^\dagger$ is the imputation with access to class label
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High Adv (Train) | High Adv (Test) | Med Adv (Train) | Med Adv (Test) | Low Adv (Train) | Low Adv (Test) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Random | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 |
-| IP | 76 $\pm$ 2 | 74 $\pm$ 3 | 80 $\pm$ 2 | 80 $\pm$ 2 | 73 $\pm$ 3 | 75 $\pm$ 4 |
-| IP$^\dagger$ | 80 $\pm$ 2 | 80 $\pm$ 2 | 80 $\pm$ 1 | 80 $\pm$ 3 | 72 $\pm$ 2 | 80 $\pm$ 2 |
-| WB | 83 $\pm$ 3 | 85 $\pm$ 2 | 83 $\pm$ 5 | 84 $\pm$ 1 | 85 $\pm$ 3 | 86 $\pm$ 4 |
-| WB$\cdot$IP | 88 $\pm$ 3 | 87 $\pm$ 4 | 84 $\pm$ 2 | 86 $\pm$ 4 | 87 $\pm$ 2 | 92 $\pm$ 2 |
-| WB$\diamondsuit$IP | 81 $\pm$ 2 | 83 $\pm$ 3 | 82 $\pm$ 4 | 85 $\pm$ 5 | 72 $\pm$ 3 | 82 $\pm$ 4 |
-| WB$\square$IP | 79 $\pm$ 5 | 85 $\pm$ 4 | 83 $\pm$ 2 | 83 $\pm$ 3 | 76 $\pm$ 4 | 85 $\pm$ 4 |
-| WB$\cdot$IP$^\dagger$ | 87 $\pm$ 3 | 85 $\pm$ 4 | 84 $\pm$ 2 | 88 $\pm$ 2 | 86 $\pm$ 3 | 89 $\pm$ 1 |
-| WB$\diamondsuit$IP$^\dagger$ | 84 $\pm$ 2 | 83 $\pm$ 4 | 82 $\pm$ 2 | 83 $\pm$ 5 | 68 $\pm$ 5 | 77 $\pm$ 5 |
-| WB$\square$IP$^\dagger$ | 83 $\pm$ 1 | 82 $\pm$ 2 | 81 $\pm$ 3 | 86 $\pm$ 5 | 77 $\pm$ 4| 83 $\pm$ 3 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High (Train) | High (Test) | High (OOD) | Med (Train) | Med (Test) | Med (OOD) | Low (Train) | Low (Test) | Low (OOD) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Random | 29 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 29 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 29 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 |
+| IP | 81 $\pm$ 2 | 79 $\pm$ 2 | 70 $\pm$ 3 | 79 $\pm$ 4 | 75 $\pm$ 2 | 71 $\pm$ 5 | 76 $\pm$ 3 | 80 $\pm$ 4 | 81 $\pm$ 2 |
+| IP$^\dagger$ | 83 $\pm$ 2 | 82 $\pm$ 2 | 73 $\pm$ 3 | 82 $\pm$ 2 | 80 $\pm$ 5 | 73 $\pm$ 4 | 80 $\pm$ 4 | 79 $\pm$ 4 | 78 $\pm$ 4 |
+| WB | 88 $\pm$ 3 | 86 $\pm$ 3 | 84 $\pm$ 6 | 88 $\pm$ 3 | 87 $\pm$ 1 | 86 $\pm$ 5 | 89 $\pm$ 3 | 90 $\pm$ 3 | 91 $\pm$ 4 |
+| WB$\cdot$IP | 86 $\pm$ 4 | 86 $\pm$ 3 | 78 $\pm$ 5 | 88 $\pm$ 4 | 87 $\pm$ 3 | 85 $\pm$ 4 | 86 $\pm$ 2 | 89 $\pm$ 3 | 91 $\pm$ 3 |
+| WB$\diamondsuit$IP | 86 $\pm$ 2 | 85 $\pm$ 4 | 86 $\pm$ 3 | 86 $\pm$ 2 | 82 $\pm$ 5 | 86 $\pm$ 3 | 74 $\pm$ 6 | 75 $\pm$ 7 | 91 $\pm$ 2 |
+| WB$\square$IP | 87 $\pm$ 3 | 84 $\pm$ 4 | 86 $\pm$ 3 | 87 $\pm$ 3 | 85 $\pm$ 4 | 87 $\pm$ 4 | 79 $\pm$ 8 | 78 $\pm$ 8 | 93 $\pm$ 1 |
+| WB$\cdot$IP$^\dagger$ | 86 $\pm$ 2 | 85 $\pm$ 2 | 77 $\pm$ 4 | 89 $\pm$ 3 | 87 $\pm$ 3 | 84 $\pm$ 4 | 88 $\pm$ 3 | 89 $\pm$ 3 | 88 $\pm$ 3 |
+| WB$\diamondsuit$IP$^\dagger$ | 86 $\pm$ 6 | 80 $\pm$ 4 | 83 $\pm$ 6 | 86 $\pm$ 3 | 84 $\pm$ 5 | 84 $\pm$ 4 | 79 $\pm$ 9 | 74 $\pm$ 8 | 90 $\pm$ 3 |
+| WB$\square$IP$^\dagger$ | 88 $\pm$ 3 | 85 $\pm$ 3 | 87 $\pm$ 1 | 88 $\pm$ 2 | 84 $\pm$ 5 | 86 $\pm$ 3 | 83 $\pm$ 9 | 77 $\pm$ 9 | 90 $\pm$ 2 |
 <center>**Table 1:** PPV (%) for predicting top-100 records on Texas-100X. Candidate set is drawn from general distribution.</center>
 
 #### Model doesn't have access to *race*
 
 Here we study the impact of removing race from the model training. Since race and ethnicity have implicit correlation, it would be more realistic to assume the adversary trying to infer ethnicity would not know the race of the query record.
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High Adv (Train) | High Adv (Test) | Med Adv (Train) | Med Adv (Test) | Low Adv (Train) | Low Adv (Test) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Random | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 | 28 $\pm$ 0 |
-| IP | 41 $\pm$ 3 | 38 $\pm$ 1 | 43 $\pm$ 1 | 43 $\pm$ 2 | 39 $\pm$ 2 | 42 $\pm$ 3 |
-| IP$^\dagger$ | 42 $\pm$ 2 | 43 $\pm$ 2 | 40 $\pm$ 4 | 44 $\pm$ 3 | 46 $\pm$ 2 | 46 $\pm$ 4 |
-| WB | 47 $\pm$ 4 | 49 $\pm$ 4 | 46 $\pm$ 3 | 49 $\pm$ 2 | 45 $\pm$ 2 | 46 $\pm$ 6 |
-| WB$\cdot$IP | 57 $\pm$ 2 | 55 $\pm$ 2 | 65 $\pm$ 2 | 63 $\pm$ 2 | 49 $\pm$ 1 | 55 $\pm$ 1 |
-| WB$\diamondsuit$IP | 61 $\pm$ 6 | 55 $\pm$ 7 | 68 $\pm$ 3 | 64 $\pm$ 1 | 39 $\pm$ 3 | 54 $\pm$ 3 |
-| WB$\square$IP | 62 $\pm$ 4 | 59 $\pm$ 8 | 64 $\pm$ 6 | 58 $\pm$ 6 | 43 $\pm$ 2 | 53 $\pm$ 3 |
-| WB$\cdot$IP$^\dagger$ | 59 $\pm$ 2 | 57 $\pm$ 2 | 57 $\pm$ 2 | 60 $\pm$ 3 | 44 $\pm$ 1 | 56 $\pm$ 2 |
-| WB$\diamondsuit$IP$^\dagger$ | 48 $\pm$ 5 | 51 $\pm$ 2 | 59 $\pm$ 9 | 56 $\pm$ 3 | 38 $\pm$ 3 | 55 $\pm$ 2 |
-| WB$\square$IP$^\dagger$ | 43 $\pm$ 7 | 50 $\pm$ 4 | 57 $\pm$ 4 | 55 $\pm$ 5 | 38 $\pm$ 2 | 56 $\pm$ 1 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High (Train) | High (Test) | High (OOD) | Med (Train) | Med (Test) | Med (OOD) | Low (Train) | Low (Test) | Low (OOD) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Random | 29 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 29 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 29 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 |
+| IP | 44 $\pm$ 5 | 40 $\pm$ 4 | 37 $\pm$ 10 | 47 $\pm$ 8 | 47 $\pm$ 3 | 32 $\pm$ 3 | 36 $\pm$ 4 | 39 $\pm$ 4 | 52 $\pm$ 4 |
+| IP$^\dagger$ | 45 $\pm$ 2 | 41 $\pm$ 3 | 37 $\pm$ 5 | 44 $\pm$ 4 | 43 $\pm$ 4 | 30 $\pm$ 2 | 38 $\pm$ 5 | 43 $\pm$ 5 | 61 $\pm$ 4 |
+| WB | 55 $\pm$ 3 | 52 $\pm$ 4 | 60 $\pm$ 7 | 54 $\pm$ 3 | 53 $\pm$ 4 | 62 $\pm$ 7 | 55 $\pm$ 4 | 54 $\pm$ 5 | 65 $\pm$ 3 |
+| WB$\cdot$IP | 60 $\pm$ 3 | 57 $\pm$ 5 | 55 $\pm$ 9 | 63 $\pm$ 6 | 59 $\pm$ 2 | 61 $\pm$ 7 | 52 $\pm$ 6 | 51 $\pm$ 6 | 85 $\pm$ 2 |
+| WB$\diamondsuit$IP | 61 $\pm$ 3 | 61 $\pm$ 6 | 63 $\pm$ 4 | 61 $\pm$ 3 | 57 $\pm$ 5 | 54 $\pm$ 3 | 47 $\pm$ 6 | 49 $\pm$ 4 | 82 $\pm$ 4 |
+| WB$\square$IP | 61 $\pm$ 6 | 57 $\pm$ 5 | 56 $\pm$ 5 | 61 $\pm$ 4 | 56 $\pm$ 7 | 55 $\pm$ 3 | 48 $\pm$ 7 | 49 $\pm$ 5 | 85 $\pm$ 2 |
+| WB$\cdot$IP$^\dagger$ | 61 $\pm$ 3 | 57 $\pm$ 4 | 66 $\pm$ 5 | 61 $\pm$ 3 | 58 $\pm$ 4 | 61 $\pm$ 4 | 51 $\pm$ 5 | 50 $\pm$ 3 | 82 $\pm$ 5 |
+| WB$\diamondsuit$IP$^\dagger$ | 58 $\pm$ 4 | 55 $\pm$ 6 | 56 $\pm$ 5 | 56 $\pm$ 2 | 55 $\pm$ 7 | 60 $\pm$ 9 | 48 $\pm$ 8 | 46 $\pm$ 8 | 83 $\pm$ 2 |
+| WB$\square$IP$^\dagger$ | 57 $\pm$ 3 | 55 $\pm$ 2 | 54 $\pm$ 5 | 57 $\pm$ 3 | 58 $\pm$ 4 | 60 $\pm$ 7 | 48 $\pm$ 6 | 45 $\pm$ 7 | 82 $\pm$ 1 |
 <center>**Table 2:** PPV (%) for predicting top-100 records on Texas-100X. Candidate set is drawn from general distribution.</center>
 
 **Remark:** From the results in Table 2, we can see the impact of removing race attribute on ethnicity inference. The imputation PPV drops from ~80% to ~40%.
@@ -125,36 +125,36 @@ Here we consider the scenario where the training data comes from skewed distribu
 
 #### Model uses *race* as a training feature
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High Adv (Train) | High Adv (Test) | Med Adv (Train) | Med Adv (Test) | Low Adv (Train) | Low Adv (Test) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Random | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 |
-| IP | 89 $\pm$ 3 | 88 $\pm$ 3 | 92 $\pm$ 2 | 93 $\pm$ 2 | 83 $\pm$ 2 | 74 $\pm$ 4 |
-| IP$^\dagger$ | 88 $\pm$ 1 | 85 $\pm$ 2 | 83 $\pm$ 4 | 88 $\pm$ 3 | 77 $\pm$ 2 | 75 $\pm$ 3 |
-| WB | 87 $\pm$ 6 | 91 $\pm$ 5 | 89 $\pm$ 4 | 93 $\pm$ 3 | 94 $\pm$ 4 | 91 $\pm$ 3 |
-| WB$\cdot$IP | 96 $\pm$ 1 | 95 $\pm$ 2 | 97 $\pm$ 2 | 95 $\pm$ 1 | 90 $\pm$ 2 | 88 $\pm$ 3 |
-| WB$\diamondsuit$IP | 94 $\pm$ 1 | 88 $\pm$ 1 | 91 $\pm$ 3 | 90 $\pm$ 2 | 86 $\pm$ 7 | 84 $\pm$ 5 |
-| WB$\square$IP | 97 $\pm$ 1 | 91 $\pm$ 3 | 94 $\pm$ 2 | 91 $\pm$ 2 | 91 $\pm$ 3 | 88 $\pm$ 6 |
-| WB$\cdot$IP$^\dagger$ | 96 $\pm$ 1 | 95 $\pm$ 3 | 96 $\pm$ 2 | 95 $\pm$ 2 | 91 $\pm$ 2 | 86 $\pm$ 2 |
-| WB$\diamondsuit$IP$^\dagger$ | 95 $\pm$ 2 | 88 $\pm$ 3 | 95 $\pm$ 1 | 92 $\pm$ 2 | 87 $\pm$ 6 | 82 $\pm$ 5 |
-| WB$\square$IP$^\dagger$ | 97 $\pm$ 1 | 93 $\pm$ 4 | 95 $\pm$ 2 | 92 $\pm$ 1 | 89 $\pm$ 2 | 84 $\pm$ 6 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High (Train) | High (Test) | High (OOD) | Med (Train) | Med (Test) | Med (OOD) | Low (Train) | Low (Test) | Low (OOD) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Random | 24 $\pm$ 0 | 24 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 24 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 24 $\pm$ 0 | 28 $\pm$ 0 |
+| IP | 86 $\pm$ 3 | 83 $\pm$ 3 | 76 $\pm$ 5 | 88 $\pm$ 3 | 87 $\pm$ 3 | 76 $\pm$ 4 | 72 $\pm$ 4 | 65 $\pm$ 4 | 80 $\pm$ 2 |
+| IP$^\dagger$ | 84 $\pm$ 2 | 85 $\pm$ 1 | 81 $\pm$ 2 | 87 $\pm$ 2 | 82 $\pm$ 2 | 75 $\pm$ 2 | 73 $\pm$ 4 | 67 $\pm$ 6 | 80 $\pm$ 3 |
+| WB | 92 $\pm$ 2 | 90 $\pm$ 4 | 87 $\pm$ 2 | 93 $\pm$ 2 | 90 $\pm$ 4 | 87 $\pm$ 2 | 84 $\pm$ 6 | 81 $\pm$ 6 | 81 $\pm$ 3 |
+| WB$\cdot$IP | 95 $\pm$ 3 | 89 $\pm$ 3 | 86 $\pm$ 4 | 96 $\pm$ 1 | 93 $\pm$ 3 | 89 $\pm$ 2 | 79 $\pm$ 3 | 78 $\pm$ 4 | 85 $\pm$ 2 |
+| WB$\diamondsuit$IP | 90 $\pm$ 3 | 90 $\pm$ 3 | 74 $\pm$ 5 | 92 $\pm$ 3 | 92 $\pm$ 2 | 74 $\pm$ 2 | 81 $\pm$ 5 | 79 $\pm$ 7 | 85 $\pm$ 2 |
+| WB$\square$IP | 90 $\pm$ 1 | 89 $\pm$ 3 | 75 $\pm$ 1 | 92 $\pm$ 2 | 91 $\pm$ 2 | 81 $\pm$ 6 | 80 $\pm$ 4 | 77 $\pm$ 7 | 83 $\pm$ 3 |
+| WB$\cdot$IP$^\dagger$ | 95 $\pm$ 3 | 89 $\pm$ 4 | 88 $\pm$ 2 | 95 $\pm$ 1 | 90 $\pm$ 4 | 90 $\pm$ 2 | 81 $\pm$ 5 | 79 $\pm$ 4 | 84 $\pm$ 1 |
+| WB$\diamondsuit$IP$^\dagger$ | 90 $\pm$ 3 | 90 $\pm$ 3 | 78 $\pm$ 7 | 92 $\pm$ 4 | 91 $\pm$ 1 | 74 $\pm$ 5 | 82 $\pm$ 5 | 80 $\pm$ 5 | 85 $\pm$ 2 |
+| WB$\square$IP$^\dagger$ | 92 $\pm$ 4 | 89 $\pm$ 3 | 81 $\pm$ 5 | 91 $\pm$ 3 | 90 $\pm$ 1 | 78 $\pm$ 7 | 80 $\pm$ 6 | 78 $\pm$ 6 | 85 $\pm$ 3 |
 <center>**Table 3:** PPV (%) for predicting top-100 records on Texas-100X. Candidate set is drawn from *skewed* distribution.</center>
 
 **Remark:** As shown in Table 3, IP$^\dagger$ performs slightly worse than IP. Hence the class label seems to have a negative correlation with the Hispanic ethnicity in this setting where training records come from a skewed distribution.
 
 #### Model doesn't have access to *race*
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High Adv (Train) | High Adv (Test) | Med Adv (Train) | Med Adv (Test) | Low Adv (Train) | Low Adv (Test) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Random | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 | 22 $\pm$ 0 |
-| IP | 67 $\pm$ 3 | 68 $\pm$ 3 | 64 $\pm$ 4 | 69 $\pm$ 5 | 41 $\pm$ 5 | 45 $\pm$ 4 |
-| IP$^\dagger$ | 71 $\pm$ 5 | 64 $\pm$ 2 | 64 $\pm$ 3 | 61 $\pm$ 1 | 47 $\pm$ 2 | 44 $\pm$ 6 |
-| WB | 53 $\pm$ 6 | 55 $\pm$ 4 | 53 $\pm$ 6 | 56 $\pm$ 4 | 51 $\pm$ 4 | 54 $\pm$ 5 |
-| WB$\cdot$IP | 86 $\pm$ 1 | 87 $\pm$ 1 | 91 $\pm$ 1 | 91 $\pm$ 2 | 64 $\pm$ 2 |  70 $\pm$ 2|
-| WB$\diamondsuit$IP | 86 $\pm$ 1 | 84 $\pm$ 4 | 89 $\pm$ 1 | 84 $\pm$ 2 | 61 $\pm$ 6 | 60 $\pm$ 8 |
-| WB$\square$IP | 87 $\pm$ 3 | 85 $\pm$ 4 | 90 $\pm$ 1 | 87 $\pm$ 2 | 59 $\pm$ 8 | 56 $\pm$ 3 |
-| WB$\cdot$IP$^\dagger$ | 80 $\pm$ 3 | 82 $\pm$ 1 | 85 $\pm$ 2 | 86 $\pm$ 1 | 60 $\pm$ 4 |  64 $\pm$ 3|
-| WB$\diamondsuit$IP$^\dagger$ | 83 $\pm$ 1 | 86 $\pm$ 2 | 87 $\pm$ 3 | 84 $\pm$ 2 | 59 $\pm$ 7 | 64 $\pm$ 8 |
-| WB$\square$IP$^\dagger$ | 83 $\pm$ 1 | 85 $\pm$ 1 | 88 $\pm$ 1 | 85 $\pm$ 1 | 57 $\pm$ 7 | 62 $\pm$ 6 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | High (Train) | High (Test) | High (OOD) | Med (Train) | Med (Test) | Med (OOD) | Low (Train) | Low (Test) | Low (OOD) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Random | 24 $\pm$ 0 | 24 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 24 $\pm$ 0 | 28 $\pm$ 0 | 24 $\pm$ 0 | 24 $\pm$ 0 | 28 $\pm$ 0 |
+| IP | 65 $\pm$ 4 | 61 $\pm$ 4 | 37 $\pm$ 2 | 70 $\pm$ 6 | 72 $\pm$ 5 | 43 $\pm$ 4 | 32 $\pm$ 4 | 32 $\pm$ 6 | 41 $\pm$ 2 |
+| IP$^\dagger$ | 64 $\pm$ 5 | 62 $\pm$ 6 | 42 $\pm$ 3 | 70 $\pm$ 3 | 68 $\pm$ 4 | 40 $\pm$ 3 | 37 $\pm$ 2 | 36 $\pm$ 4 | 38 $\pm$ 7 |
+| WB | 57 $\pm$ 6 | 57 $\pm$ 8 | 51 $\pm$ 5 | 56 $\pm$ 4 | 56 $\pm$ 7 | 52 $\pm$ 4 | 57 $\pm$ 4 | 56 $\pm$ 6 | 50 $\pm$ 3 |
+| WB$\cdot$IP | 89 $\pm$ 5 | 86 $\pm$ 5 | 53 $\pm$ 2 | 90 $\pm$ 2 | 88 $\pm$ 4 | 53 $\pm$ 2 | 58 $\pm$ 3 | 58 $\pm$ 5 | 63 $\pm$ 3 |
+| WB$\diamondsuit$IP | 84 $\pm$ 5 | 85 $\pm$ 4 | 45 $\pm$ 2 | 82 $\pm$ 2 | 85 $\pm$ 3 | 47 $\pm$ 3 | 58 $\pm$ 6 | 58 $\pm$ 5 | 59 $\pm$ 4 |
+| WB$\square$IP | 84 $\pm$ 7 | 84 $\pm$ 5 | 46 $\pm$ 2 | 85 $\pm$ 2 | 85 $\pm$ 4 | 46 $\pm$ 3 | 60 $\pm$ 6 | 59 $\pm$ 5 | 58 $\pm$ 4 |
+| WB$\cdot$IP$^\dagger$ | 83 $\pm$ 3 | 85 $\pm$ 4 | 56 $\pm$ 4 | 88 $\pm$ 3 | 87 $\pm$ 4 | 53 $\pm$ 4 | 67 $\pm$ 4 | 65 $\pm$ 5 | 61 $\pm$ 4 |
+| WB$\diamondsuit$IP$^\dagger$ | 81 $\pm$ 5 | 84 $\pm$ 4 | 44 $\pm$ 2 | 82 $\pm$ 4 | 85 $\pm$ 2 | 46 $\pm$ 3 | 60 $\pm$ 4 | 60 $\pm$ 4 | 58 $\pm$ 4 |
+| WB$\square$IP$^\dagger$ | 84 $\pm$ 4 | 86 $\pm$ 3 | 45 $\pm$ 3 | 84 $\pm$ 4 | 86 $\pm$ 2 | 45 $\pm$ 2 | 59 $\pm$ 6 | 58 $\pm$ 3 | 57 $\pm$ 5 |
 <center>**Table 4:** PPV (%) for predicting top-100 records on Texas-100X. Candidate set is drawn from *skewed* distribution.</center>
 
 **Remark:** Similar to previous case, race's correlation to ethnicity has a huge impact on the inference task.
