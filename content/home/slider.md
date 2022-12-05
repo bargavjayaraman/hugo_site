@@ -16,6 +16,15 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
+  title = "Academic Milestone!"
+  content = "Dec 02, 2022: I passed my [PhD Dissertation Defense](https://uvasrg.github.io/congratulations-dr.-jayaraman/) and am officially a Doctor of Philosophy (Computer Science)."
+  align = "center"
+
+  overlay_color = "#223"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+[[item]]
   title = "Paper Accepted!"
   content = "Aug 26, 2022: Our paper titled [Are Attribute Inference Attacks Just Imputation?](https://arxiv.org/pdf/2209.01292.pdf) has been accepted at CCS 2022."
   align = "center"  # Choose `center`, `left`, or `right`.
