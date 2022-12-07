@@ -103,3 +103,5 @@ We show that the attribute inference attacks take advantage of the model leaking
 **Full paper:** Bargav Jayaraman and David Evans. [_Are Attribute Inference Attacks Just Imputation?_](https://arxiv.org/abs/2209.01292) ([arXiv](https://arxiv.org/abs/2209.01292)).
 
 **Code:** [_https://github.com/bargavj/EvaluatingDPML_](https://github.com/bargavj/EvaluatingDPML)
+
+**Talk Video:** [_https://youtu.be/iLy0C5DK2T8_](https://youtu.be/iLy0C5DK2T8)
