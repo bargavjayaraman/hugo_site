@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Virginia"
   date_start = "2016-08-11"
-  date_end = ""
+  date_end = "2022-12-02"
   description = """Research on privacy preserving machine learning."""
 
 [[experience]]
