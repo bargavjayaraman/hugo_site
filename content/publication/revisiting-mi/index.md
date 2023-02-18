@@ -41,7 +41,7 @@ url_code: https://github.com/bargavj/EvaluatingDPML
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'files/revisiting_mi_presentation.pdf'
 url_source: ''
 url_video: ''
 
