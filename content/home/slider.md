@@ -17,7 +17,7 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Paper Accepted!"
-  content = "Sep 25, 2024: Our paper titled Measuring Deja Vu Memorization Efficiently has been accepted at NeurIPS 2024."
+  content = "Sep 25, 2024: Our paper titled Measuring Déjà Vu Memorization Efficiently has been accepted at NeurIPS 2024."
   align = "center"  # Choose `center`, `left`, or `right`.
 
   overlay_color = "#223"  # An HTML color value.
@@ -26,7 +26,7 @@ height = ""
 
 [[item]]
   title = "Paper Accepted!"
-  content = "Sep 25, 2024: Our paper titled [Deja Vu Memorization in Vision--Language Models](https://arxiv.org/pdf/2402.02103.pdf) has been accepted at NeurIPS 2024."
+  content = "Sep 25, 2024: Our paper titled [Déjà Vu Memorization in Vision--Language Models](https://arxiv.org/pdf/2402.02103.pdf) has been accepted at NeurIPS 2024."
   align = "center"  # Choose `center`, `left`, or `right`.
 
   overlay_color = "#223"  # An HTML color value.
