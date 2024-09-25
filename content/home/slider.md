@@ -17,6 +17,25 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Paper Accepted!"
+  content = "Sep 25, 2024: Our paper titled Measuring Deja Vu Memorization Efficiently has been accepted at NeurIPS 2024."
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  overlay_color = "#223"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Paper Accepted!"
+  content = "Sep 25, 2024: Our paper titled [Deja Vu Memorization in Vision--Language Models](https://arxiv.org/pdf/2402.02103.pdf) has been accepted at NeurIPS 2024."
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  overlay_color = "#223"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+
+[[item]]
+  title = "Paper Accepted!"
   content = "Jul 10, 2023: Our paper titled [Combing for Credentials: Active Pattern Extraction from Smart Reply](https://arxiv.org/pdf/2207.10802.pdf) has been accepted at IEEE S&P 2024."
   align = "center"  # Choose `center`, `left`, or `right`.
 
@@ -63,7 +82,7 @@ height = ""
 
 [[item]]
   title = "Paper Accepted!"
-  content = "Sep 5, 2018: Our paper titled [Distributed Learning without Distress: Privacy-Preserving Empirical Risk Minimization](http://papers.nips.cc/paper/7871-distributed-learning-without-distress-privacy-preserving-empirical-risk-minimization) has been accepted at NIPS 2018, Montreal, Canada."
+  content = "Sep 5, 2018: Our paper titled [Distributed Learning without Distress: Privacy-Preserving Empirical Risk Minimization](http://papers.nips.cc/paper/7871-distributed-learning-without-distress-privacy-preserving-empirical-risk-minimization) has been accepted at NeurIPS 2018, Montreal, Canada."
   align = "center"
 
   overlay_color = "#223"  # An HTML color value.
