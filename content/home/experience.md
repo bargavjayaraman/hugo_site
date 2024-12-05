@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   location = "Burlington, MA"
   date_start = "2024-11-04"
   date_end = ""
-  description = """Research on privacy preserving machine learning."""
+  description = """Research on privacy, security and access contol of LLMs."""
 
 [[experience]]
   title = "Postdoctoral Researcher"
@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   location = "Menlo Park, CA"
   date_start = "2023-01-23"
   date_end = "2024-11-04"
-  description = """Research on privacy preserving machine learning."""
+  description = """Research on memorization evaluation of LLMs and VLMs."""
 
 [[experience]]
   title = "Research Intern"

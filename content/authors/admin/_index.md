@@ -22,7 +22,8 @@ bio: My research interests include machine learning and privacy.
 
 interests:
 - Machine Learning
-- Security and Privacy
+- Differential Privacy
+- Cryptography
 
 education:
   courses:
