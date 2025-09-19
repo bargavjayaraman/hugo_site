@@ -17,7 +17,25 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Paper Accepted!"
-  content = "Sep 25, 2024: Our paper titled Measuring Déjà Vu Memorization Efficiently has been accepted at NeurIPS 2024."
+  content = "Sep 18, 2025: Our paper titled [Permissioned LLMs: Enforcing Access Control in Large Language Models](https://arxiv.org/pdf/2505.22860.pdf) has been accepted at NeurIPS 2025."
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  overlay_color = "#644"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Paper Accepted!"
+  content = "Sep 18, 2025: Our paper titled Rethinking the Role of Verbatim Memorization in LLM Privacy has been accepted at NeurIPS 2025."
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  overlay_color = "#644"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Paper Accepted!"
+  content = "Sep 25, 2024: Our paper titled [Measuring Déjà Vu Memorization Efficiently](https://proceedings.neurips.cc/paper_files/paper/2024/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf) has been accepted at NeurIPS 2024."
   align = "center"  # Choose `center`, `left`, or `right`.
 
   overlay_color = "#644"  # An HTML color value.
